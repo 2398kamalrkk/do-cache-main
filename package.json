@@ -1,7 +1,7 @@
 {
-  "name": "do-cache",
-  "version": "1.0.0",
-  "description": "Simple runtime cache with required functions | easy to use",
+  "name": "free-cache",
+  "version": "1.0.1",
+  "description": "Simple cache tool with required functions | easy to use.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,7 @@
   "author": "Kamal",
   "license": "ISC",
   "dependencies": {
+    "free-cache": "^1.0.0",
     "sinon": "^11.1.2"
   }
 }

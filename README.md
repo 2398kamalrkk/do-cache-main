@@ -1,29 +1,35 @@
-# do-cache
+# free-cache
 
-Simple runtime cache with required functions | easy to use.
+Simple cache tool with required functions | easy to use.
 
 ## Installation
 
 ```bash
-npm install do-cache --save
+npm install free-cache --save
 ```
 
 ## Usage
 
 ```python
-var doCache = require('do-cache');
+var freeCache = require('free-cache');
 
 // now ready to to use the cache
 
-doCache.put('email', 'my-email-id', true);
-console.log(doCache.get('email'));
+freeCache.put('email', 'my-email-id', true);
+console.log(freeCache.get('email'));
 
 // set timeout for specific key-value
 
-doCache.put('token', 'token-to-expire', true, 1000); // Time in ms
+freeCache.put('token', 'token-to-expire', true, 1000); // Time in ms
 
 // set overwrite to false for a key for data integrity
 
-doCache.put('id', 'dont-overwrite-me', false);
+freeCache.put('id', 'dont-overwrite-me', false);
 
+//other functions
+freeCache.delete('id');
+
+console.log(freeCache.memsize('id'));
+
+console.log(freeCache.getAllKeys('id'));
 ```
