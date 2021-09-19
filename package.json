@@ -1,0 +1,25 @@
+{
+  "name": "do-cache",
+  "version": "1.0.0",
+  "description": "Simple runtime cache with required functions | easy to use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2398kamalrkk/do-cache-main.git"
+  },
+  "keywords": [
+    "node",
+    "cache",
+    "runtime",
+    "organise",
+    "data"
+  ],
+  "author": "Kamal",
+  "license": "ISC",
+  "dependencies": {
+    "sinon": "^11.1.2"
+  }
+}
